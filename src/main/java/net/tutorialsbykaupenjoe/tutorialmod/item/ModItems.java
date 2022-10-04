@@ -46,6 +46,10 @@ public class ModItems {
             () -> new HoeItem(ModItemTier.AMETHYST, 0, 0f,
                     new Item.Properties().group(ModItemGroup.TUTORIAL_GROUP)));
 
+    public static final RegistryObject<Item> HYPER_SWORD = ITEMS.register("hyper_sword",
+            () -> new SwordItem(ModItemTier.HYPER_INGOT, 20, 58f,
+                    new Item.Properties().group(ModItemGroup.TUTORIAL_GROUP)));
+
 
     public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots",
             () -> new ArmorItem(ModArmorMaterial.AMETHYST, EquipmentSlotType.FEET,
